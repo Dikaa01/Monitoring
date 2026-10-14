@@ -1,0 +1,14 @@
+{
+  "name": "smu02c-reader",
+  "version": "1.0.0",
+  "description": "Akses data rectifier SMU02C via protokol YDN (YD/T1363.3), Modbus RTU, dan Modbus SLV",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "modbus-serial": "^8.0.25",
+    "serialport": "^12.0.0"
+  }
+}

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="GB2312"?>
+<InstallProject>
+<Version>YingInstall5.40</Version>
+<Task ID="2401" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetAllVar">
+<ProjectName>ModeBusRTU调试工具CRC16版</ProjectName>
+<InstallPath>[Program Files]\ModeBusRTU调试工具CRC16版</InstallPath>
+<PathLoadFromRegistry>0</PathLoadFromRegistry>
+<IsNoFoundStopInstall>0</IsNoFoundStopInstall>
+<RegRootKey>HKEY_LOCAL_MACHINE</RegRootKey>
+<RegSubKey>\Software\SoftwareCompany\MySoftware</RegSubKey>
+<RegVarName>InstallPath</RegVarName>
+<InstallStopDesc>找不到相关应用程序，升级过程终止！</InstallStopDesc>
+<CompanyDesc>CaterWang</CompanyDesc>
+<ProductVersion>1.1</ProductVersion>
+<FileVersion>1.1.0.0</FileVersion>
+<DiskSize>671088640</DiskSize>
+<AdPicture></AdPicture>
+<MusicPath></MusicPath>
+<TopFramePicture></TopFramePicture>
+<OutPutPath>C:\Documents and Settings\Administrator\桌面\ModeBusRTU调试工具CRC16版_SETUP</OutPutPath>
+<ProvideForInstall></ProvideForInstall>
+<AppFileIcon></AppFileIcon>
+<BackgroundInstall>0</BackgroundInstall>
+<SpecCode></SpecCode>
+<Language>409,804,404</Language>
+<SoftwareSize>6413290</SoftwareSize>
+<FileQty>9</FileQty>
+</SubTask>
+</Task>
+<Task ID="2002" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowBitmap">
+<PosX>0</PosX>
+<PosY>0</PosY>
+<File></File>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|WelcomeWndDesc1||ProjectName||WelcomeWndDesc2|</Description>
+<Description>|WelcomeWndDesc3|</Description>
+<Description>|WelcomeWndDesc4|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2003" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ReadSoftDocSubject|</Subject>
+<Description>|ReadSoftDocDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="ShowSoftDoc">
+<FileType>S</FileType>
+<File></File>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2004" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowReadmeSubject|</Subject>
+<Description>|ShowReadmeDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="ShowReadme">
+<FileType>S</FileType>
+<File></File>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2005" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|RegisterInfoSubject|</Subject>
+<Description>|RegisterInfoDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="EditBox">
+<Description>|RegisterInfoCompanyDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10003" Type="EditBox">
+<Description>|RegisterInfoUserDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10004" Type="EditBox">
+<Description>|RegisterInfoSNDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10005" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2006" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ProgramFolderSubject|</Subject>
+<Description>|ProgramFolderDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ProgramFolderDesc2|</Description>
+<Description>|ProgramFolderDesc3|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2007" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ChangePathSubject|</Subject>
+<Description>|ChangePathDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ChangePathDesc2|</Description>
+<Description>|ChangePathFreeSpaceDesc1|</Description>
+<Description>|ChangePathFreeSpaceDesc2|</Description>
+<Description>|ChangePathSoftSizeDesc1|</Description>
+<Description>|ChangePathSoftSizeDesc2|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2008" Type="ShowDialogBox" IsExec="1">
+</Task>
+<Task ID="2009" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowFinishOneSubject|</Subject>
+<Description>|ShowFinishOneDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ShowFinishOneDesc2|</Description>
+<Description>|ShowFinishOneDesc3|</Description>
+<Description>|ShowFinishOneDesc4|</Description>
+<Description>|ShowFinishOneDesc5|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2010" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowFinishTwoSubject|</Subject>
+<Description>|ShowFinishTwoDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<PosX>50</PosX>
+<PosY>100</PosY>
+<Description>|ShowFinishTwoDesc2|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2402" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetAllVar">
+<PathDesc>[InstallDir]</PathDesc>
+<PathValue>C:\Documents and Settings\Administrator\桌面\ModeBusRTU调试工具CRC16版</PathValue>
+<PathDesc>[Windows Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Windows Directory]\Fonts</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[System Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Desktop Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Program Files]</PathDesc>
+<PathValue></PathValue>
+</SubTask>
+</Task>
+<Task ID="2403" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<ComList>XXX-XXX-XXX</ComList>
+</SubTask>
+</Task>
+<Task ID="2404" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<Description>ModeBusRTU调试工具CRC16版</Description>
+</SubTask>
+<SubTask ID="10002" Type="CreateShortcutMenu">
+<Description>ModeBusRTU调试工具CRC16版</Description>
+<File>ModeBusRTU调试工具CRC16版.exe</File>
+<Folder>[InstallDir]</Folder>
+<Parameter></Parameter>
+<IconFile>[InstallDir]\ModBus_RTU.ico</IconFile>
+<IsToFileLinkGroup>1</IsToFileLinkGroup>
+<IsToDesktop>1</IsToDesktop>
+<IsToStartup>1</IsToStartup>
+<IsToQuickLaunch>0</IsToQuickLaunch>
+<IsSpecExec>1</IsSpecExec>
+<SpecExecDesc>[CreateToDesktop]</SpecExecDesc>
+</SubTask>
+</Task>
+<Task ID="2405" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2406" Type="DataSetting" IsExec="0">
+</Task>
+<Task ID="2407" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2414" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2413" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2408" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2409" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2415" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2410" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<CreateUnInstall1>1</CreateUnInstall1>
+<CreateUnInstall2>1</CreateUnInstall2>
+<UnInstallEx></UnInstallEx>
+</SubTask>
+</Task>
+<Task ID="2411" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<File>[InstallDir]\ModBus_RTU.ico</File>
+</SubTask>
+</Task>
+<Task ID="2412" Type="ExtractFiles" IsExec="0">
+<SubTask ID="10001" Type="FolderList">
+<Folder>[InstallDir]</Folder>
+</SubTask>
+<SubTask ID="10002" Type="FileList">
+<File>[TempFileDir]\~YingInstall-Language.ini,601600,3544,K,2001-11-11 19:11:11</File>
+<File>[TempFileDir]\~YingInstall-TopFramePicture.bmp,605144,230,K,2005-3-12 14:56:36</File>
+<File>[TempFileDir]\~YingInstall-WelcomeWndPicture.bmp,605374,91455,K,2003-7-28 20:34:0</File>
+<File>[Windows Directory]\Ying-UnInstall.exe,696829,174375,U,2008-11-23 22:26:50</File>
+<File>[InstallDir]\borlndmm.dll,871204,9013,A,2002-2-2 0:0:0</File>
+<File>[InstallDir]\cc32100mt.dll,880217,314524,A,2011-2-22 12:3:36</File>
+<File>[InstallDir]\ModBus_RTU.ico,1194741,1071,A,2012-11-17 16:25:38</File>
+<File>[InstallDir]\ModeBusRTU调试工具CRC16版.exe,1195812,43909,A,2012-11-23 10:4:18</File>
+<File>[InstallDir]\rtl140.bpl,1239721,521042,A,2009-11-3 6:2:0</File>
+<File>[InstallDir]\vcl140.bpl,1760763,743202,A,2009-11-3 6:2:0</File>
+<File>[InstallDir]\VictorComm32.bpl,2503965,36502,A,2012-11-17 17:32:58</File>
+<File>[InstallDir]\VictorCommDesign.bpl,2540467,11868,A,2012-11-17 17:33:0</File>
+</SubTask>
+</Task>
+</InstallProject>

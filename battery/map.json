@@ -1,0 +1,16 @@
+{
+  "_catatan": "verified=false = masih dugaan (tampil di tabel KANDIDAT). Ubah ke true hanya setelah cocok dengan nilai asli dari display/BMS. type: u16, s16, u32, s32, ascii (pakai 'len'). role (opsional): voltage, current, remain, total, cell -> dipakai untuk nilai turunan (daya, SOC hitung, selisih sel). count>1 = ulangi register berurutan (pakai {n} di name).",
+  "_contoh": {
+    "name": "Sel {n}", "addr": 1000, "count": 16, "type": "u16", "unit": "mV",
+    "group": "Tegangan sel", "role": "cell", "verified": false,
+    "note": "CONTOH saja, addr 1000 bukan alamat sebenarnya. Salin ke 'registers' dan sesuaikan."
+  },
+  "registers": [
+    { "name": "Tegangan pack", "addr": 257, "fc": 3, "type": "u16", "scale": 0.1, "unit": "V",
+      "role": "voltage", "verified": false, "note": "dugaan: 517 x0.1 = 51.7 V" },
+    { "name": "SOC", "addr": 258, "fc": 3, "type": "u16", "scale": 1, "unit": "%",
+      "verified": false, "note": "dugaan: nilai 66" },
+    { "name": "Teks reg 264-265", "addr": 264, "fc": 3, "type": "ascii", "len": 2,
+      "verified": false, "note": "hanya dekode ASCII; artinya belum diketahui" }
+  ]
+}

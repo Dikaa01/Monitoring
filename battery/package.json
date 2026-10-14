@@ -1,0 +1,9 @@
+{
+  "name": "esm-scan",
+  "version": "1.0.0",
+  "description": "Pemindai RS485 read-only untuk baterai Huawei ESM-48100B1",
+  "main": "esm_scan.js",
+  "bin": { "esm-scan": "esm_scan.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "serialport": "^13.0.0" }
+}

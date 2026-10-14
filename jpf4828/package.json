@@ -1,0 +1,13 @@
+{
+  "name": "jpf4828-reader",
+  "version": "1.0.0",
+  "description": "RS485 Modbus RTU reader for JPF4828 fan temperature controller",
+  "main": "jpf4828_reader.js",
+  "scripts": {
+    "start": "node jpf4828_reader.js",
+    "scan": "node jpf4828_reader.js scan"
+  },
+  "dependencies": {
+    "modbus-serial": "^8.0.0"
+  }
+}
